@@ -81,5 +81,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heading1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heading11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outlineBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker %281%29.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
