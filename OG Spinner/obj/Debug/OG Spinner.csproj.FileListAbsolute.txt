@@ -8,3 +8,4 @@ E:\BSCS\3rd_Semester_Data\Hacktober_project\OG-Spinner-Wheel\OG Spinner\obj\Debu
 E:\BSCS\3rd_Semester_Data\Hacktober_project\OG-Spinner-Wheel\OG Spinner\obj\Debug\OG Spinner.csproj.CoreCompileInputs.cache
 E:\BSCS\3rd_Semester_Data\Hacktober_project\OG-Spinner-Wheel\OG Spinner\obj\Debug\OG Spinner.exe
 E:\BSCS\3rd_Semester_Data\Hacktober_project\OG-Spinner-Wheel\OG Spinner\obj\Debug\OG Spinner.pdb
+E:\BSCS\3rd_Semester_Data\Hacktober_project\OG-Spinner-Wheel\OG Spinner\obj\Debug\OG_Spinner.Forms.frmIntro.resources
