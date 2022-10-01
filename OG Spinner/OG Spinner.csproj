@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>OG_Spinner</RootNamespace>
     <AssemblyName>OG Spinner</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -53,10 +53,19 @@
     <Compile Include="Forms\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\IntroFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IntroFrm.Designer.cs">
+      <DependentUpon>IntroFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IntroFrm.resx">
+      <DependentUpon>IntroFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -98,6 +107,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ezgif.com-gif-maker %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oritentation.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
