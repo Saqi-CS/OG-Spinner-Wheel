@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\frmIntro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmIntro.Designer.cs">
+      <DependentUpon>frmIntro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmIntro.resx">
+      <DependentUpon>frmIntro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +107,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ezgif.com-gif-maker %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\W1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\we1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\we2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\we3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\we4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\we11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\we5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
